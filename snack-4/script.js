@@ -5,5 +5,13 @@ const posts = [
   { author: 'Enrico', date: '09/12/2021', content: 'lorem ipsum...' },
 ]
 
+
+//rimappo l'array restituendo solo la proprietà author nel nuovo array
+const namesAuthors = posts.map( post  => {
+  return post.author
+})
+
+console.log(namesAuthors);
+
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
