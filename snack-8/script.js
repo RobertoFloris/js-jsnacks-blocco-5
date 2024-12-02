@@ -19,5 +19,13 @@ const students = [
   },
 ];
 
+
+//find restituisce un oggetto per cui salvo l'oggetto marco lanci in una variabile e poi stampo la sua proprietà class
+
+const marcoLanci = students.find(student => student.name == 'Marco Lanci')
+
+console.log(marcoLanci.class);
+
+
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
